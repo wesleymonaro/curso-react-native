@@ -1,9 +1,15 @@
 import React from 'react'
 import { Text, AppRegistry} from 'react-native'
 
+const Estilos = {
+  estiloTexto: {
+    fontSize: 20
+  }
+}
+
 const App = () => {
   return(
-    <Text>Olá</Text>
+    <Text style={Estilos.estiloTexto}>Olá</Text>
   );
 }; 
 
